@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 def data_load():
-  data = pd.read_csv("/workspaces/dashboard-bike-sharing-python/hour.csv")
+  data = pd.read_csv("hour.csv")
   return data
 
 data = data_load()
